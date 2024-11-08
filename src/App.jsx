@@ -19,7 +19,7 @@ function App() {
                 btn="click here to redirect" />
             <Card imglink="https://img.freepik.com/premium-vector/lamborghini-vector-illustration_969863-226415.jpg"
                 name="Lamborghini"
-                description="this is cool website"
+                description="this is cool website" action ={() => console.log('WOW') }
                 btn="click here to redirect" />
         </div >)
 }

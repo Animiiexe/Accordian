@@ -7,19 +7,28 @@ body {
     font-style: normal;
 }
 
-.card{
+.card {
     background: radial-gradient(328px at 2.9% 15%, rgb(191, 224, 251) 0%, rgb(232, 233, 251) 25.8%, rgb(252, 239, 250) 50.8%, rgb(234, 251, 251) 77.6%, rgb(240, 251, 244) 100.7%);
     padding: 1em;
-   border-radius: 1em;
-    
+    border-radius: 1em;
+
     margin: 1em;
 }
-.container{
+
+.container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
-img{
+
+img {
     width: 400px;
     height: 400px;
+}
+
+button {
+    font-size: 1em;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
 }

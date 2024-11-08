@@ -1,4 +1,4 @@
-function Card(props) {
+function Card(props , action = () => console.log('clicked')) {
     console.log(props);
     const heading = {
         color: "red"
@@ -9,7 +9,7 @@ function Card(props) {
         <p>
             {props.description}
         </p>
-        <button>{props.btn}</button>
+        <button onClick={action}>{props.btn}</button>
     </div>
 
 
