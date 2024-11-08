@@ -8,7 +8,9 @@ const appEL = document.querySelector("#app")
 const root = createRoot(appEL)
 
 root.render(
-    <App />
+    <React.StrictMode>
+        <App />
+    </React.StrictMode>
 );
 
 import App from "./App";

@@ -1,15 +1,15 @@
-function Card() {
-
-    const heading ={
-        color :"red"
+function Card(props) {
+    console.log(props);
+    const heading = {
+        color: "red"
     }
     return <div className="card">
-        <img src="https://placehold.co/100" alt="" />
-        <h1 style={heading}>Wazzup Guys {59 + 10}</h1>
+        <img src={props.imglink} alt="" />
+        <h1 style={heading}>{props.name} {59 + 10}</h1>
         <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus voluptas nihil qui.
+            {props.description}
         </p>
-        <button>Click Me</button>
+        <button>{props.btn}</button>
     </div>
 
 
